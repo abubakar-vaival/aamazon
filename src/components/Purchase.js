@@ -25,7 +25,7 @@ function Purchase({book}) {
     const options1 = {
       type: "native", 
       amount: Moralis.Units.ETH(priceMatic), 
-      receiver: "xxxxx"
+      receiver: "0xaC3d4DA7311C4c51985c1713D853a2663D5de932"
     }
     let result = await Moralis.transfer(options1)
 
